@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresher Guidance</title>
+  <!-- ✅ Fixed CSS path with leading slash -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Fresher Guidance</h1>
+    <nav>
+      <ul>
+        <li><a href="#goal">Select Goal</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="goal">
+    <h2>Select Your Goal</h2>
+    <select id="goalSelect">
+      <option value="web_development">Web Development</option>
+      <option value="data_science">Data Science</option>
+      <option value="mobile_development">Mobile Development</option>
+    </select>
+    <!-- ✅ Modern event handling (remove inline onclick) -->
+    <button id="loadButton">Get Started</button>
+  </section>
+
+  <section id="courses">
+    <h2>Suggested Courses</h2>
+    <ul id="courseList"></ul>
+  </section>
+
+  <section id="roadmap">
+    <h2>Personalized Roadmap</h2>
+    <ol id="roadmapList"></ol>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul id="certificateList"></ul>
+  </section>
+
+  <!-- ✅ Fixed JS path with leading slash -->
+  <script src="/script.js"></script>
+</body>
+</html>

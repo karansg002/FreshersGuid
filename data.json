@@ -1,0 +1,17 @@
+{
+  "web_development": {
+    "courses": ["HTML/CSS", "JavaScript", "React.js", "Node.js"],
+    "roadmap": ["Learn Basics", "Build Projects", "Apply for Internships"],
+    "certificates": ["FreeCodeCamp Responsive Design", "Coursera Frontend Development"]
+  },
+  "data_science": {
+    "courses": ["Python", "Pandas", "Machine Learning", "Data Visualization"],
+    "roadmap": ["Learn Python", "Practice Datasets", "Build ML Models"],
+    "certificates": ["Coursera Data Science", "Kaggle Micro-Courses"]
+  },
+  "mobile_development": {
+    "courses": ["Flutter", "React Native", "Swift", "Kotlin"],
+    "roadmap": ["Learn Basics", "Build Apps", "Publish on App Store"],
+    "certificates": ["Google Flutter Certification", "Udemy React Native"]
+  }
+}
