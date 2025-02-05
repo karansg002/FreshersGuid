@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresher Guidance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+    <script>
+        function selectGoal() {
+            let goal = prompt("Please enter your goal:");
+            if (goal) {
+                localStorage.setItem("userGoal", goal);
+                document.getElementById("goal-display").innerText = "Selected Goal: " + goal;
+            }
+        }
+        window.onload = function() {
+            let savedGoal = localStorage.getItem("userGoal");
+            if (savedGoal) {
+                document.getElementById("goal-display").innerText = "Selected Goal: " + savedGoal;
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Fresher Guidance</h1>
+    </header>
+    <div class="container">
+        <div class="section" id="goal" onclick="selectGoal()">
+            <h2>Goal Selection</h2>
+            <p>User selects a goal that he/she wants to achieve.</p>
+            <p id="goal-display">Click to select a goal.</p>
+        </div>
+        <div class="section" id="courses">
+            <h2>Courses Suggested</h2>
+            <p>Courses suggested according to the goal.</p>
+        </div>
+        <div class="section" id="roadmap">
+            <h2>Personalized Roadmap</h2>
+            <p>Roadmap customized according to the selected goal.</p>
+        </div>
+        <div class="section" id="certificates">
+            <h2>Certificates</h2>
+            <p>Certificates and qualifications needed to achieve the goal.</p>
+        </div>
+        <div class="section" id="guidance">
+            <h2>Personal Guidance</h2>
+            <p>Dedicated video calling facility for interaction with mentors.</p>
+        </div>
+        <div class="section" id="internship">
+            <h2>Internship</h2>
+            <p>Internship opportunities that improve the chances of achieving the goal.</p>
+        </div>
+        <div class="section" id="university">
+            <h2>University Transfer Program</h2>
+            <p>Information about abroad transfer programs conducted by colleges.</p>
+        </div>
+    </div>
+</body>
+</html>
