@@ -1,25 +1,32 @@
-async function loadCourses() {
+document.getElementById('loadButton').addEventListener('click', function() {
   const goal = document.getElementById('goalSelect').value;
-  
-  try {
-    const response = await fetch(`/courses?goal=${encodeURIComponent(goal)}`);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const data = await response.json();
+  fetch('/data.json')
+    .then(response => response.json())
+    .then(data => {
+      const goalData = data[goal];
 
-    // Update DOM elements
-    const updateList = (elementId, items) => {
-      const list = document.getElementById(elementId);
-      list.innerHTML = items.map(item => `<li>${item}</li>`).join('');
-    };
+      // Load Courses
+      const courseList = document.getElementById('courseList');
+      courseList.innerHTML = goalData.courses.map(course => `<li>${course}</li>`).join('');
 
-    updateList('courseList', data.courses);
-    updateList('roadmapList', data.roadmap);
-    updateList('certificateList', data.certificates);
+      // Load Roadmap
+      const roadmapList = document.getElementById('roadmapList');
+      roadmapList.innerHTML = goalData.roadmap.map(step => `<li>${step}</li>`).join('');
 
-  } catch (error) {
-    console.error('Failed to load courses:', error);
-    alert('Failed to load data. Please try again.');
-  }
-}
+      // Load Certificates
+      const certificateList = document.getElementById('certificateList');
+      certificateList.innerHTML = goalData.certificates.map(cert => `<li>${cert}</li>`).join('');
+
+      // Load Internships
+      const internshipList = document.getElementById('internshipList');
+      internshipList.innerHTML = goalData.internships.map(internship => `<li>${internship}</li>`).join('');
+
+      // Load University Programs
+      const universityList = document.getElementById('universityList');
+      universityList.innerHTML = goalData.university_programs.map(program => `<li>${program}</li>`).join('');
+    });
+});
+
+document.getElementById('scheduleCall').addEventListener('click', function() {
+  alert('Schedule a call feature will be implemented soon.');
+});
