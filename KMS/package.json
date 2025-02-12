@@ -1,0 +1,19 @@
+{
+  "name": "fresher-guidance",
+  "version": "1.0.0",
+  "description": "Fresher Guidance Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.6"
+  }
+}
