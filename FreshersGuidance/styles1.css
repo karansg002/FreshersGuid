@@ -1,0 +1,67 @@
+.jake{
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    position:absolute;
+    top:20px;
+    left:190px;
+  }
+  .Logo img{
+    border-radius:100%;
+    border-color:black;
+    position:absolute;
+    left:100px;
+    top: 25px;
+  }
+
+  .container{
+    width: 90%;
+    height: 10px;
+    max-width: 1200px;
+    margin: 75px auto;
+    display: flex;
+    align-content: flex-start;
+    justify-content: first baseline;
+    float: right;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+  .container li{
+     list-style: none;
+  }
+  .hero-content{
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    color: black;
+    padding: 100px 20px;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 32px;
+    width: 50%;
+    padding: 20px;
+  }
+  .hero{
+    background:linear-gradient(to right, #e6f2ff, #ffffff);
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 40px;
+    margin-top: 150px;
+   
+  }
+  .hero-content h1{
+    margin-top: 4px;
+  }
+.banner-img{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.banner-img img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+  
