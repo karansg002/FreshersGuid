@@ -1,0 +1,132 @@
+.jake{
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    position:absolute;
+    top:20px;
+    left:190px;
+  }
+  .Logo img{
+    border-radius:100%;
+    border-color:black;
+    position:absolute;
+    left:100px;
+    top: 25px;
+  }
+
+  .container{
+    width: 90%;
+    height: 10px;
+    max-width: 1200px;
+    margin: 75px auto;
+    display: flex;
+    align-content: flex-start;
+    justify-content: first baseline;
+    float: right;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+  .container li{
+     list-style: none;
+  }
+  .nav-links{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    float: right;
+    padding: 120;
+    margin: 42;
+    font-size: 35px;
+    margin-top: 1px;
+  
+
+  }
+  .hero-content{
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    color: black;
+    padding: 100px 20px;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 32px;
+    width: 50%;
+    padding: 20px;
+  }
+  .hero{
+    background:linear-gradient(to right, #e6f2ff, #ffffff);
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 40px;
+    margin-top: 150px;
+    height: 500px;
+   
+  }
+  .hero-content h1{
+    margin-top: 4px;
+  }
+.banner-img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.banner-img img{
+  width: 70%;
+  padding: 10px;
+  height: 60%;
+  object-fit: cover; /* Ensures full coverage */
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-top: 170px;
+  margin-left: 150px;
+}
+
+.Res-container{
+  background-color:#f2f8f1;
+  border: black;
+}
+.CV p{
+  font-size: 20px;
+}
+.CV li{
+  font-size: 20px;
+}
+.res-img{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.res-img img{
+  margin-top: 770px;
+  height: 80%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.Link-container{
+  background:linear-gradient(to right, #e6f2ff, #ffffff);
+}
+
+.LinkedIn li{
+  font-size: 20px;
+}
+.LinkedIn p{
+  font-size: 20px;
+}
+.link-img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.link-img img{
+  margin-top: 1600px;
+  height: 80%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
