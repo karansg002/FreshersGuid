@@ -1,0 +1,160 @@
+.container{
+    height: 100vh;
+}
+.fs-4{
+    font-size: 100px;
+}
+.Container-Testimonials{
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+.testimonials {
+    padding: 50px 20px;
+    background-image:white;
+    text-align: center;
+    width: 100%;
+  }
+  .testimonials h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+  .slider {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .slide {
+    display: none;
+    padding: 20px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .slide.active {
+    display: block;
+  }
+  .slide p {
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  .slide h4 {
+    font-weight: normal;
+    color:black;
+  }
+  .slider-controls {
+    margin-top: 10px;
+  }
+  .slider-controls span {
+    cursor: pointer;
+    font-size: 2em;
+    padding: 0 10px;
+    color:black;
+  }
+
+  /* FAQs Section */
+  .faqs {
+    padding: 50px 20px;
+    background-color:white;
+  }
+  .faqs h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+  .faq-item {
+    max-width: 800px;
+    margin: 10px auto;
+    border-bottom: 1px solid #ddd;
+  }
+  .faq-question {
+    width: 100%;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1.1em;
+    outline: none;
+  }
+  .faq-answer {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    padding: 0 15em;
+  }
+  .faq-answer p {
+    padding: 10px 0;
+  }
+
+  /* Contact Us Section */
+  .Contact{
+    text-align: center;
+
+  }
+  .contact-us {
+    padding: 50px 20px;
+    background: #fff;
+  }
+  .contact-us h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+  #contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  button[type="submit"]:hover {
+    background: #555;
+  }
+  /* Services / Statistics Section */
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    background: linear-gradient(to right, #e6f2ff, #ffffff);
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .service-item {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+  }
+  .service-item h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  .service-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #777;
+  }
