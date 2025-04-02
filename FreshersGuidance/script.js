@@ -27,7 +27,7 @@ function prevSlide() {
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
-setInterval(nextSlide, 5000);
+setInterval(nextSlide, 10000);
 
 
 const faqQuestions = document.querySelectorAll('.faq-question');

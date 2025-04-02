@@ -1,0 +1,51 @@
+/* Slideshow Container */
+.slideshow-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.slide.fade {
+  animation: fade 1.5s;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+/* Dots */
+.dot.active {
+  background-color: #4a5568; /* Tailwind's gray-700 */
+}
+
+/* Link Styling */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2563eb; /* Blue-600 */
+}
+
+/* Platform Badges */
+.platform-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+
+.coursera { background-color: #dbeafe; color: #1e40af; } /* Blue-100 and Blue-800 */
+.udemy { background-color: #f3e8ff; color: #6b21a8; } /* Purple-100 and Purple-800 */
+.freecodecamp { background-color: #dcfce7; color: #166534; } /* Green-100 and Green-800 */
+.kaggle { background-color: #fee2e2; color: #991b1b; } /* Red-100 and Red-800 */

@@ -1,0 +1,36 @@
+{
+  "web_development": {
+    "courses": [
+      { "name": "HTML/CSS Basics", "platform": "Coursera", "url": "https://www.coursera.org/learn/html" },
+      { "name": "Advanced JavaScript", "platform": "Udemy", "url": "https://www.udemy.com/course/javascript-advanced" },
+      { "name": "React Fundamentals", "platform": "FreeCodeCamp", "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/react/" },
+      { "name": "Node.js Masterclass", "platform": "Udemy", "url": "https://www.udemy.com/course/nodejs-masterclass" }
+    ],
+    "certificates": [
+      "FreeCodeCamp Responsive Design",
+      "Coursera Frontend Development"
+    ]
+  },
+  "data_science": {
+    "courses": [
+      { "name": "Python for Data Science", "platform": "Coursera", "url": "https://www.coursera.org/learn/python-data-science" },
+      { "name": "Machine Learning A-Z", "platform": "Udemy", "url": "https://www.udemy.com/course/machinelearning" },
+      { "name": "Data Visualization with Python", "platform": "Kaggle", "url": "https://www.kaggle.com/learn/data-visualization" }
+    ],
+    "certificates": [
+      "Coursera Data Science",
+      "Kaggle Micro-Courses"
+    ]
+  },
+  "mobile_development": {
+    "courses": [
+      { "name": "Flutter for Beginners", "platform": "Udemy", "url": "https://www.udemy.com/course/flutter-beginner" },
+      { "name": "React Native Crash Course", "platform": "FreeCodeCamp", "url": "https://www.freecodecamp.org/news/tag/react-native/" },
+      { "name": "Swift Programming", "platform": "Coursera", "url": "https://www.coursera.org/learn/swift-programming" }
+    ],
+    "certificates": [
+      "Google Flutter Certification",
+      "Udemy React Native"
+    ]
+  }
+}

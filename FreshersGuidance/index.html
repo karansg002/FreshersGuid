@@ -3,101 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Freshers Guidance</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
+    <title>Fresher's Guidance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style2.css">
 </head>
 <body>
- 
-  <div class="Logo"> 
-    <img src="./images/lo.png" alt="Logo"/>
-  </div>
-    <nav class="navbar">
-      <h1><span style="font-size: 2em;">F</span>reshers Guidance</h1>
-      <div class="btn-container">
-        <button class="Login-btn">Login/Register</button>
-      </div>
+  <div style="width:100%; height: 600px; background-color:white;">
+    <div class="container-fluid">
+      <!--Header-->
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="./images/mortarboard-fill.svg" class ="me-2" height="40px">
+          <span class="fs-4">Fresher's Guidance</span>
+        </a>
       
-        <div class="container">
-          <ul class="nav-links">
-            <li><a href="./SelectGoal.html">Select Goal</a></li>
-            <li><a href="./Internship.html">Get an Internship</a></li>
-            <li><a href="./University-transfer.html">University Transfer Program</a></li>
-          </ul>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="./SelectGoal.html" class="nav-link">Select Goal</a></li>
+          <li class="nav-item"><a href="./Internshipp.html" class="nav-link">Internship</a></li>
+          <li class="nav-item"><a href="./University-transfer.html" class="nav-link">University Transfer</a></li>
+          <li class="nav-item"><a href="./Login.html" class="nav-link">Login</a></li>
+        </ul>
+      </header>
+    </div>
+    <div class="Container-bg">
+      <div class="container col-xxl-8 px-1 pt-2 mb-0 pb-0">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/hero-bg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Guiding you towards a successful career and academic journey</h1>
+            <p class="lead">We provide expert guidance for freshers in choosing their career paths, securing internships, and information about University abroad programs.</p>
+          </div>
         </div>
-      </nav>  
-      <section class="hero">
-        <div class="hero-content">
-          <h1><span class="badge">🚀 Welcome to Freshers Guidance</span></h1>
-          <h1 class="tagline">Guiding you towards a successful career and academic journey.</h1>
-          <p>
-            We provide expert guidance for freshers in choosing their career paths, securing internships, and
-            transitioning into prestigious universities.
-          </p>
+        <section class="services">
+          <div class="service-item">
+            <h2>500+</h2>
+            <p>Satisfied Clients</p>
+          </div>
+          <div class="service-item">
+            <h2>10+ Years</h2>
+            <p>Years of Expertise</p>
+          </div>
+          <div class="service-item">
+            <h2>20+</h2>
+            <p>Programs Offered</p>
+          </div>
+          <div class="service-item">
+            <h2>15</h2>
+            <p>Awards Received</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+    <div class="Container-Testimonials">
+      <section class="testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="slider">
+          <div class="slide active">
+            <p>"Freshers Guidance helped me secure the perfect internship and set me on the right path!"</p>
+            <h4>- Aakash Gupta</h4>
+          </div>
+          <div class="slide">
+            <p>"Their university transfer program opened doors I never thought possible."</p>
+            <h4>-Samay Sharma</h4>
+          </div>
+          <div class="slide">
+            <p>"Expert advice and personalized support every step of the way."</p>
+            <h4>-Anubhav Singh</h4>
+          </div>
         </div>
-        <div class="bannerimage">
-          <img src="./images/hero-bg.png"/>
+        <div class="slider-controls">
+          <span class="prev">&#10094;</span>
+          <span class="next">&#10095;</span>
         </div>
       </section>
-  <!--Statistics Section -->
-  <section class="services">
-    <div class="service-item">
-      <h2>500+</h2>
-      <p>Satisfied Clients</p>
     </div>
-    <div class="service-item">
-      <h2>10+ Years</h2>
-      <p>Years of Expertise</p>
-    </div>
-    <div class="service-item">
-      <h2>20+</h2>
-      <p>Programs Offered</p>
-    </div>
-    <div class="service-item">
-      <h2>15</h2>
-      <p>Awards Received</p>
-    </div>
-  </section>
-  <!-- Client Testimonials Slider -->
-  <section class="testimonials">
-    <h2>Client Testimonials</h2>
-    <div class="slider">
-      <div class="slide active">
-        <p>"Freshers Guidance helped me secure the perfect internship and set me on the right path!"</p>
-        <h4>- John Doe</h4>
-      </div>
-      <div class="slide">
-        <p>"Their university transfer program opened doors I never thought possible."</p>
-        <h4>- Jane Smith</h4>
-      </div>
-      <div class="slide">
-        <p>"Expert advice and personalized support every step of the way."</p>
-        <h4>- Alex Johnson</h4>
-      </div>
-    </div>
-    <div class="slider-controls">
-      <span class="prev">&#10094;</span>
-      <span class="next">&#10095;</span>
-    </div>
-  </section>
-   <!-- FAQs Section -->
+    <div class="Faq's">
+      <!-- FAQs Section -->
    <section class="faqs">
     <h2>Frequently Asked Questions</h2>
     <div class="faq-item">
       <button class="faq-question">What services do you offer?</button>
       <div class="faq-answer">
         <p>
-          We offer career guidance, internship placement assistance, and university transfer support among other services.
+          We offer personalized career guidance through goal-based course recommendations, step-by-step roadmaps.Our services 
+          include mentorship via video calls, 
+          CV building Tips and Tricks to gain Internship and to be Industry ready, and information on university transfer programs for global opportunities.
         </p>
       </div>
     </div>
     <div class="faq-item">
-      <button class="faq-question">How can I apply for your programs?</button>
+      <button class="faq-question">How can I avail your Services?</button>
       <div class="faq-answer">
         <p>
-          You can apply directly through our website by filling out the contact form or by reaching out via email.
+          You can avail the services directly through our website by filling out the contact form or by reaching out via email.
         </p>
       </div>
     </div>
@@ -110,7 +112,9 @@
       </div>
     </div>
   </section>
-  <!-- Contact Us Section -->
+    </div>
+    <div class="ContactUs">
+      <!-- Contact Us Section -->
   <section class="contact-us">
     <h2>Get In Touch With Us</h2>
     <div class="Contact">
@@ -118,7 +122,8 @@
       <p><i class="fas fa-envelope"></i> tamanna@gmail.com | <i class="fas fa-phone"></i> 9999507980</p>
 
     </div>
-    <form id="contactForm">
+    <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+      <input type="hidden" name="access_key" value="3a5f2368-2fc2-4463-a076-8a329ae81059">
       <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Your name" required />
@@ -138,7 +143,10 @@
   <footer>
     <p>Copyright © All Rights Reserved Freshers Guidance</p>
   </footer>
-
-  <script src="./script.js"></script>
+   
+   
+ 
+  <script src="./script.js"></script>  
+    
 </body>
 </html>
